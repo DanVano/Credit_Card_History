@@ -1,0 +1,61 @@
+body {
+    background-color: #fff;
+    color: #212529;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 0;
+    text-align: left;
+}
+
+h1 {
+  padding: 10px;
+  font-size: 60px;
+  text-align: center;
+}
+
+h2 {
+    background-color: #477bff;
+    color: #fff;
+    margin-bottom: 20;
+    padding: 0.5rem 1.5rem;
+    text-align: center;
+    display: inline-block;
+}
+
+.container {
+    margin: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.chartMenu {
+  width: 100vw;
+  height: 200px;
+  background: #1A1A1A;
+  color: rgba(54, 162, 235, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-container {
+  position: absolute;
+  top: 15%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+img {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+}
+
+#PaymentTable td {
+  min-width: 200px; /* Adjust this value as needed */
+}
